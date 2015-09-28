@@ -15,7 +15,7 @@ Usage:
 The ```Bitly``` object is exposed to the global scope.
 All methods throw Meteor.error on failure
 
-``js
+```javascript
 var bitly = new Bitly('<YOUR USERNAME>', '<YOUR API KEY>');
 shortUrl = bitly.shorten('https://github.com/tanepiper/node-bitly')
 longUrl = bitly.expand(shortUrl);
